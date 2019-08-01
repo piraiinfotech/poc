@@ -32,6 +32,8 @@ v1.0 Include
 
 Imp Points:
 
+This project will take a parameter --project alomg with any command , which will excute the command only on given tag
+
 if you take all ec2 instances snapshot at a time , Pirai cli will pick one ec2 instance and it will stop it 
 and after stopped status it wiil take snapshot and will start the respective ec2 
 then pick other ec2 instance and fallow the same process
