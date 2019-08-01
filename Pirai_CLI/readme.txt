@@ -44,6 +44,10 @@ Example Commands :
 
 pirai --help ( It will give you all listed commands in v.1.0
 
+pirai instances list (WILL LIST ALL EC2 INSTANCES)
+
+pirai instances list --project=Pirai ( will list only ec2 instances with project Tag and value is Pirai) 
+
 pirai instances list ( please make sure you have instances in your account, if no instances will throw error, Fix will release soon with new features
 
 pirai instances snapshot
